@@ -1,0 +1,463 @@
+body {
+  scroll-behavior: smooth;
+}
+
+.portada {
+  width: 100%;
+  height: 800px;
+  background: url("./Diseño%20sin%20título%20(34).jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 992px) {
+  .portada {
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.portada h1 {
+  color: #fcb600;
+  font-family: 'Arizonia';
+  font-size: 70px;
+}
+
+@media (max-width: 992px) {
+  .portada h1 {
+    font-size: 30px;
+  }
+}
+
+.portada #name {
+  color: #fff;
+  font-size: 120px;
+  font-family: 'Bangers';
+}
+
+@media (max-width: 992px) {
+  .portada #name {
+    font-size: 40px;
+  }
+}
+
+.portada #description {
+  color: #fff;
+  font-size: 20px;
+  width: 50%;
+  font-family: 'Bellefair';
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .portada #description {
+    width: 80%;
+    font-size: 12px;
+  }
+}
+
+.navbar {
+  font-family: 'Lato';
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar img {
+  width: 200px;
+}
+
+.botonorder {
+  background: #c37f00;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 20px 8px;
+  font-family: 'Lato';
+}
+
+.botonreservar {
+  background: none;
+  color: #fff;
+  border: 2px #fff solid;
+  border-radius: 20px;
+  padding: 20px 55px;
+  font-family: 'Lato';
+}
+
+.botonorder:hover {
+  background: #986300;
+}
+
+.botonreservar:hover {
+  background: #c37f00;
+  border: none;
+}
+
+.columna1 {
+  max-width: 1200px;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.columna1 h1 {
+  margin-top: 20px;
+  font-family: 'Bangers';
+}
+
+.columna1 p {
+  font-family: 'Lato';
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.columna1 .botonorder {
+  margin-bottom: 20px;
+}
+
+.iconos {
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  max-width: 800px;
+}
+
+@media (max-width: 992px) {
+  .iconos {
+    height: 200px;
+  }
+}
+
+.iconos img {
+  padding: 10px;
+  width: 100%;
+  filter: grayscale(1);
+  cursor: pointer;
+}
+
+.iconos a {
+  width: 100%;
+}
+
+.iconos img:hover {
+  filter: grayscale(0.5);
+}
+
+.promo {
+  width: 100%;
+  height: 400px;
+  background: url("./assets/img/promo.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.promo h1 {
+  color: #c37f00;
+  font-family: 'Bellefair';
+  font-weight: 900;
+  font-size: 80px;
+}
+
+@media (max-width: 992px) {
+  .promo h1 {
+    font-size: 40px;
+  }
+}
+
+.reservations {
+  width: 100%;
+  height: 400px;
+  background: url("./table.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reservations h1 {
+  color: #c37f00;
+}
+
+.reservations p {
+  color: #fff;
+}
+
+.gallery {
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+  .gallery {
+    text-align: center;
+  }
+}
+
+.gallery h2 {
+  font-family: 'Bigshot One';
+}
+
+.gallery p {
+  font-family: 'Lato';
+}
+
+.gallery img {
+  width: 80%;
+}
+
+@media (max-width: 992px) {
+  .gallery img {
+    width: 40%;
+  }
+}
+
+.gallery .row {
+  margin-top: 50px;
+}
+
+@media (max-width: 992px) {
+  .gallery .row {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .gallery h2 {
+    margin-top: 30px;
+  }
+}
+
+.botonsend {
+  background: #c37f00;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 20px 60px;
+  font-family: 'Lato';
+}
+
+.boton {
+  text-align: center;
+}
+
+#formulario img {
+  width: 40%;
+}
+
+#formulario {
+  text-align: center;
+}
+
+.pie {
+  width: 100%;
+  height: 600px;
+  background: url("./pie.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icono {
+  width: 100%;
+  text-align: center;
+}
+
+.icono a {
+  font-size: 35px;
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.pie h1 {
+  color: #fff;
+}
+
+.pie p {
+  color: #fff;
+  font-family: 'Lato';
+  font-size: 18px;
+}
+
+.pie #end {
+  color: #b5b5b5;
+}
+
+.mapa {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.mapa iframe {
+  width: 90%;
+  height: 450px;
+  border: 2px orange solid;
+  border-radius: 15px;
+}
+
+@media (max-width: 992px) {
+  .mapa {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.restaurant {
+  width: 100%;
+  height: 600px;
+  background: url("./resta.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.restaurant h1 {
+  color: #c37f00;
+  font-family: 'Bangers';
+  font-size: 80px;
+}
+
+.restaurant img {
+  width: 20%;
+}
+
+@media (max-width: 992px) {
+  .restaurant img {
+    width: 40%;
+  }
+}
+
+.video {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: #c37f00;
+}
+
+@media (max-width: 992px) {
+  .video {
+    flex-direction: column;
+  }
+}
+
+.video iframe {
+  width: 600px;
+  height: 400px;
+  margin-top: 40px;
+}
+
+@media (max-width: 992px) {
+  .video iframe {
+    width: 450px;
+    margin-top: 10px;
+  }
+}
+
+.cont1 {
+  width: 30%;
+}
+
+@media (max-width: 992px) {
+  .cont1 {
+    margin: auto;
+  }
+}
+
+.enlaces {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.menu img {
+  width: 80%;
+}
+
+@media (max-width: 992px) {
+  .menu img {
+    width: 95%;
+  }
+}
+
+.enlaces a {
+  text-decoration: none;
+  color: darkred;
+  font-size: 18px;
+}
+
+#navcol-4 a {
+  color: red;
+}
+
+div a {
+  color: red;
+}
+
+.mapa {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.mapa iframe {
+  width: 90%;
+  height: 450px;
+  border: 2px orange solid;
+  border-radius: 15px;
+}
+
+@media (max-width: 992px) {
+  .mapa {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
