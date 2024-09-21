@@ -422,11 +422,14 @@ body {
     width: 95%;
   }
 }
-
+.enlaces {
+   margin-top: 10px
+}
 .enlaces a {
   text-decoration: none;
   color: darkred;
   font-size: 18px;
+ 
 }
 
 #navcol-4 a {
