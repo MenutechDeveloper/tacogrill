@@ -477,6 +477,13 @@ body {
     width: 95%;
   }
 }
+
+#menu.menu img {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
 .enlaces {
    margin-top: 10px
 }
