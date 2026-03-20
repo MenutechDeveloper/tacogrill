@@ -469,19 +469,11 @@ body {
 }
 
 .menu img {
-  width: 80%;
-}
-
-@media (max-width: 992px) {
-  .menu img {
-    width: 95%;
-  }
-}
-
-#menu.menu img {
-  max-width: 500px;
+  width: 500px;
+  max-width: 95%;
+  height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .enlaces {
