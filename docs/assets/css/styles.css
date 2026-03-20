@@ -135,7 +135,23 @@ body {
 
 @media (max-width: 992px) {
   .iconos {
-    height: 200px;
+    height: auto;
+    max-width: 100%;
+    padding: 20px 10px;
+    justify-content: space-around;
+  }
+
+  .iconos a {
+    width: 22%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .iconos img {
+    padding: 0 !important;
+    width: 100%;
+    max-width: 60px;
+    height: auto;
   }
 }
 
@@ -407,6 +423,45 @@ body {
   align-items: center;
 }
 
+@media (max-width: 992px) {
+  .enlaces {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px 5px;
+    justify-content: center;
+  }
+
+  .enlaces a {
+    font-size: 14px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .enlaces img {
+    width: 90px !important;
+    height: auto;
+  }
+
+  .enlaces .botonorder {
+    padding: 8px 12px !important;
+    font-size: 13px !important;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 100px;
+  }
+
+  /* Specific adjustment for the See MENU button which is a plain link in enlaces */
+  .enlaces a:not(.botonorder):not(:has(img)) {
+    background-color: #f8f9fa;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    color: #333;
+    font-weight: bold;
+  }
+}
+
 .menu {
   width: 100%;
   margin: auto;
@@ -430,6 +485,19 @@ body {
   color: darkred;
   font-size: 18px;
  
+}
+
+.taco-tuesday-section {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.taco-tuesday-section img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 #navcol-4 a {
